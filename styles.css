@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+  
+  body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: url(pics/top-view-arrangement-with-salad-boxes-sauce.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 35vw center;
+    background-size: auto 100vh;
+    flex-direction: column;
+    background-color: goldenrod;
+}
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+  
+  ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+  
+  li {
+    text-align: center;
+    padding: 14px 12px;
+}
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Cherry Bomb One', cursive;
+    font-weight: bolder;
+}
+  
+  .logo {
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-size: 30px;
+}
+  
+  .sign-up {
+    height: 46px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+  
+  .log-in {
+    height: 46px;
+    background-color: black;
+    border-radius: 50px;
+}
+  
+  .login {
+    color: white;
+}
+  
+  .search {
+    display: flex;
+    height: 70vh;
+    margin: 0 0 20px 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+  p {
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 40px;
+}
+  
+  input {
+    width: 350px;
+    height: 45px;
+    border-radius: 45px;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 20px;
+}
+  
+  button {
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+  
+  .button {
+    background-color: black;
+    color: white;
+}
+  
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(191, 191, 191);
+}
+  
+  .button:hover {
+    background-color: #4C4646;
+}
+  
+  .sign-in-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+  
+  .sign-link {
+    text-decoration: underline;
+    font-weight: normal;
+}
+  
+  @media all and (max-width: 600px) {
+    button {
+      margin-top: 10px;
+    }
+
+    body {
+        background-size: auto;
+        background-position: center;
+    }
+
+    .sign-in-link {
+        margin-top: 20px;
+    }
+}
